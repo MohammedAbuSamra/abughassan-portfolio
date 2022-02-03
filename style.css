@@ -27,8 +27,7 @@ header > nav > ul {
     justify-content: center;
   }
 }
-/* style of header-section first contetn */
-
+/* style of header-section first content */
 header .container {
   padding: 0;
 }
@@ -86,4 +85,70 @@ section button:active {
 }
 .header-content a {
   color: #e12e2e;
+}
+/* style of customers reviews section */
+.customer-reviewes {
+  background-color: #edf7fa;
+}
+.customer-reviewes h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #21243d;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cards > .card {
+  background-color: white;
+  position: relative;
+  width: 300px;
+  margin: 1em auto;
+  border-radius: 2em;
+  overflow: hidden;
+}
+@media (max-width: 700px) {
+  .cards > .card {
+    width: 95%;
+  }
+}
+.card .category {
+  position: absolute;
+  background-color: #21243d;
+  padding: 0.5em;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  top: 1em;
+  left: 1em;
+  color: white;
+}
+.cards .card .card-main {
+  padding: 1em;
+}
+.card .card-main .title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: #21243d;
+}
+.card .card-main .description {
+  margin-top: 0.5em;
+  color: #21243d;
+}
+.header-content {
+  margin-top: 1em;
+}
+.cards .card .card-header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.checked {
+  color: orange;
 }
