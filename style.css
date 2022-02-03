@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Heebo", sans-serif;
 }
+/* style of header | navigation bar */
 header {
   margin: 2em;
 }
@@ -25,4 +26,64 @@ header > nav > ul {
   header nav ul {
     justify-content: center;
   }
+}
+/* style of header-section first contetn */
+
+header .container {
+  padding: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+section h1 {
+  font-weight: 700;
+  font-size: 2em;
+  color: #21243d;
+}
+section p {
+  font-weight: 400;
+  font-size: 1em;
+  color: #21243d;
+  margin: 1em 0;
+}
+section > .image > img {
+  width: 20em;
+  height: 19em;
+  display: block;
+  border-radius: 50%;
+}
+.header-of-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .header-of-page {
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+  }
+}
+section button {
+  font-weight: 500;
+  font-size: 1em;
+  color: white;
+  margin: 1em 0;
+  background-color: #ff6464;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5em;
+  cursor: pointer;
+}
+section button:hover {
+  background-color: #ff4d4d;
+}
+section button:active {
+  background-color: #ff3b3b;
+}
+.header-content a {
+  color: #e12e2e;
 }
