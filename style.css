@@ -91,10 +91,10 @@ section button:active {
   color: #fff;
 }
 /* style of customers reviews section */
-.customer-reviewes {
+.skills {
   background-color: #edf7fa;
 }
-.customer-reviewes h2 {
+.skills h2 {
   font-weight: 700;
   font-size: 2.5em;
   color: #21243d;
@@ -104,12 +104,39 @@ section button:active {
 }
 .cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   font-size: 8rem;
   color: grey;
 }
+.html,
+.css,
+.js,
+.react,
+.git,
+.github:hover {
+  transition: 0.5s ease all;
+}
+.html:hover {
+  color: #df4d27;
+}
+.css:hover {
+  color: #4b33e2;
+}
+.js:hover {
+  color: #f0e52d;
+}
+.react:hover {
+  color: #73d9fa;
+}
+.git:hover {
+  color: #ea5137;
+}
+.github:hover {
+  color: #171515;
+}
+
 .cards > .card {
   background-color: white;
   position: relative;
@@ -178,7 +205,7 @@ section button:active {
   margin: 0 auto;
   justify-content: space-evenly;
 }
-@media(max-width: 700px){
+@media (max-width: 700px) {
   .project-card {
     flex-direction: column;
   }
@@ -232,7 +259,7 @@ hr {
   margin: 0 auto;
   padding: 2em;
 }
-.icons > i {
+.icons > a {
   font-size: 2em;
   color: #21243d;
 }
