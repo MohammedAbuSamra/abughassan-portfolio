@@ -45,7 +45,7 @@ section h1 {
   font-size: 2em;
   color: #21243d;
 }
-@media (max-width: 700px){
+@media (max-width: 700px) {
   section h1 {
     font-size: 1.5rem;
   }
@@ -151,6 +151,10 @@ section button:active {
   overflow: hidden;
 }
 @media (max-width: 700px) {
+  .cards {
+    width: 75%;
+    margin: 0 auto;
+  }
   .cards > .card {
     width: 95%;
   }
